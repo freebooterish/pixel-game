@@ -92,7 +92,9 @@ body {
   border-color: var(--accent);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
   margin-bottom: 1.5rem;
   line-height: 1.4;
@@ -167,5 +169,7 @@ h1, h2, h3 {
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
